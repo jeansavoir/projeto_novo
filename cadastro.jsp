@@ -17,7 +17,9 @@
         <h:outputText value="Nome" />
         <h:inputText value="#{ManagerBean.pessoa.nome}" ></h:inputText>
         
-         
+		<h:outputText value="Email" />
+        <h:inputText value="#{ManagerBean.pessoa.email}" ></h:inputText>
+        
         <h:commandButton value="Enviar" action="#{ManagerBean.upload}">
         </h:commandButton>
       </h:panelGrid>
