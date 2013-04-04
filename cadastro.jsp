@@ -21,7 +21,9 @@
         <h:inputText value="#{ManagerBean.pessoa.email}" ></h:inputText>
 		
 		<h:outputText value="Data" />
-        <rich:calendar value="#{ManagerBean.pessoa.data}" ></rich:calendar>
+        <rich:calendar value="#{ManagerBean.pessoa.data}" >
+		<f:datePattern pattern="dd/MM/yyyy"/> 
+		</rich:calendar>
 		
 		<h:commandButton value="Enviar" action="#{ManagerBean.upload}">
         </h:commandButton>
