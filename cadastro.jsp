@@ -21,7 +21,7 @@
         <h:inputText value="#{ManagerBean.pessoa.email}" ></h:inputText>
 		
 		<h:outputText value="Data" />
-        <h:inputText value="#{ManagerBean.pessoa.data}" ></h:inputText>
+        <rich:calendar value="#{ManagerBean.pessoa.data}" ></rich:calendar>
 		
 		<h:commandButton value="Enviar" action="#{ManagerBean.upload}">
         </h:commandButton>
