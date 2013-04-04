@@ -20,6 +20,9 @@
 		<h:outputText value="Email" />
         <h:inputText value="#{ManagerBean.pessoa.email}" ></h:inputText>
 		
+		<h:outputText value="Data" />
+        <h:inputText value="#{ManagerBean.pessoa.data}" ></h:inputText>
+		
 		<h:commandButton value="Enviar" action="#{ManagerBean.upload}">
         </h:commandButton>
       </h:panelGrid>
