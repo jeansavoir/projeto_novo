@@ -5,7 +5,7 @@
 <%@ taglib uri="http://myfaces.apache.org/tomahawk" prefix="t"%>
 
 <f:view>
-  <rich:panel header="Cadastro de Pessoa">
+  <rich:panel header="Cadastro de Cliente">
      <h:form id="formulario1" enctype="multipart/form-data">
       <h:panelGrid columns="2">
       
